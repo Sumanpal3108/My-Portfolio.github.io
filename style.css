@@ -569,12 +569,7 @@ footer span a:hover{
     text-decoration: underline;
 }
  /* responsive media query */
- @media (max-width: 1300px ){
-    .home .max-width{
-        margin-left: 0px;
-    }
 
- }
  @media (max-width: 1104px ){
     .about .about-content .left img{
         height: 350px;
@@ -590,9 +585,6 @@ footer span a:hover{
 
  }
  @media (max-width: 947px ){
-    .max-width{
-        padding: 0 50px;
-    }
     .menu-btn{
         display: block;
         z-index: 999;
@@ -634,7 +626,7 @@ footer span a:hover{
         padding: 10px 30px;
     }
     .max-width{
-        max-width: 800px;
+        max-width: 930px;
       
     }
     .about .about-content .column{
@@ -682,4 +674,27 @@ footer span a:hover{
     .home .home-content .text-3{
         font-size: 27px;
     }
+    .about .about-content .right .text,
+    .skills .skills-content .left .text{
+        font-size: 19px;
+    }
+    .contact .right form .fields{
+        flex-direction: column;
+    }
+    .contact .right form .name,
+    .contact .right form .email{
+        margin: 0;
+    }
+    .right form .error-box{
+       width: 150px;
+    }
+    .scroll-up-btn{
+        right: 15px;
+        bottom: 15px;
+        height: 38px;
+        width: 35px;
+        font-size: 23px;
+        line-height: 38px;
+    }
+}
 }
